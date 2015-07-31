@@ -1,1 +1,1 @@
-print('5.0.0')
+print('6.0-beta')
