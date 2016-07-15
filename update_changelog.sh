@@ -5,4 +5,5 @@ set +x
 
 TIME=`date`
 echo $TIME >> changelog.txt
-git commit -a -m "Update changelog - $TIME"
+git add changelog.txt
+git commit -m "Update changelog - $TIME"
