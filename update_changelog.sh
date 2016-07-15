@@ -3,7 +3,6 @@
 set +e
 set +x
 
-TIME=`date '+%s'`
-
+TIME=`date`
 echo $TIME >> changelog.txt
 git commit -a -m "Update changelog - $TIME"

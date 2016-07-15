@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 BUILD_DIR=~/build
 BUILD_FILE=${BUILD_DIR}/time.txt
